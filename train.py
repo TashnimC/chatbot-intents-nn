@@ -12,7 +12,7 @@ from model.neuralnet import NeuralNet
 from dataset.chatdataset import ChatDataset
 from datapreprocessing.datapreprocess import create_chatbot_training_data 
 
-X_train, Y_train, tags, all_word_tokens = create_chatbot_training_data("C:\\Users\\jabir\\Documents\\GitHub-TashnimC\\chatbot-intents-nn\\intents.json")
+X_train, Y_train, tags, all_word_tokens = create_chatbot_training_data("intents.json")
 # Hyper-parameters 
 num_epochs = 1000
 batch_size = 8

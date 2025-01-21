@@ -1,5 +1,10 @@
 # chatbot-intents-nn
 
+## Requirements
+- PyTorch
+- NLTK
+- Numpy
+
 ## TODO
 - implement Trainer class
 - implement logger
